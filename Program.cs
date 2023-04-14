@@ -1,2 +1,20 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Console.WriteLine("Introduzca un número");
+String primerNumero;
+primerNumero = Console.ReadLine();
+Console.WriteLine("Introduzca otro número");
+string segundoNumero;
+segundoNumero = Console.ReadLine();
+int x = Int32.Parse(primerNumero);
+int y = Int32.Parse(segundoNumero);
+int suma;
+suma = x + y;
+Console.WriteLine("El resultado de sumar " + primerNumero + " y " + segundoNumero + " es: " + suma);
+int resta;
+resta = x - y;
+Console.WriteLine("El resultado de restar " + primerNumero + " y " + segundoNumero + " es: " + resta);
+int multiplicacion;
+multiplicacion = x * y;
+Console.WriteLine("El resultado de multiplicar " + primerNumero + " y " + segundoNumero + " es: " + multiplicacion);
+int division;
+division = x / y;
+Console.WriteLine("El resultado de dividir " + primerNumero + " y " + segundoNumero + " es: " + division);
